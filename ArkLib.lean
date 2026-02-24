@@ -7,17 +7,11 @@ import ArkLib.CommitmentScheme.MerkleTree
 import ArkLib.CommitmentScheme.SimpleRO
 import ArkLib.CommitmentScheme.Tensor
 import ArkLib.CommitmentScheme.Trivial
-import ArkLib.Data.CNat.AssocNat
-import ArkLib.Data.CNat.Church
-import ArkLib.Data.CNat.Defs
 import ArkLib.Data.Classes.FunEquiv
-import ArkLib.Data.Classes.HasPred
 import ArkLib.Data.Classes.HasSize
-import ArkLib.Data.Classes.HasSucc
 import ArkLib.Data.Classes.Initialize
 import ArkLib.Data.Classes.Serde
 import ArkLib.Data.Classes.Slice
-import ArkLib.Data.Classes.ToNat
 import ArkLib.Data.CodingTheory
 import ArkLib.Data.CodingTheory.Basic
 import ArkLib.Data.CodingTheory.BerlekampWelch.BerlekampWelch
@@ -61,10 +55,6 @@ import ArkLib.Data.GroupTheory.Smooth
 import ArkLib.Data.Hash.DomainSep
 import ArkLib.Data.Hash.DuplexSponge
 import ArkLib.Data.Hash.Poseidon2
-import ArkLib.Data.List.BigOperators
-import ArkLib.Data.List.Find
-import ArkLib.Data.List.HList
-import ArkLib.Data.List.Vector
 import ArkLib.Data.Matrix.Basic
 import ArkLib.Data.Matrix.Sparse
 import ArkLib.Data.Misc.Basic
@@ -75,7 +65,6 @@ import ArkLib.Data.MvPolynomial.Multilinear
 import ArkLib.Data.MvPolynomial.MvPolynomialLike
 import ArkLib.Data.MvPolynomial.Sumcheck
 import ArkLib.Data.Polynomial.Bivariate
-import ArkLib.Data.Polynomial.EvenAndOdd
 import ArkLib.Data.Polynomial.Interface
 import ArkLib.Data.Polynomial.PolynomialLike
 import ArkLib.Data.Polynomial.Prelims
